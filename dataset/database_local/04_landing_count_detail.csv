@@ -1,0 +1,5 @@
+iata_code,runway_ident,flight_count,icao_code,type,name,latitude_rad,longitude_rad,elevation_ft,scheduled_service
+DTW,DTW.09R,2,KDTW,large_airport,Detroit Metropolitan Wayne County Airport,0.7367453394959813,-1.454791293397972,645.0,yes
+OKC,OKC.31,1,KOKC,large_airport,Will Rogers World Airport,0.6177261403773048,-1.703453573855869,1295.0,yes
+LEX,LEX.22,1,KLEX,large_airport,Blue Grass Airport,0.6638621438905922,-1.476651584889778,979.0,yes
+BHM,BHM.24,1,KBHM,large_airport,Birmingham-Shuttlesworth International Airport,0.5857831209423828,-1.514134245615623,650.0,yes

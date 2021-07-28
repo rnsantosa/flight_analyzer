@@ -1,0 +1,6 @@
+fname,tail_id,dep_airport,dep_rwy,arr_airport,arr_rwy,fsize_mb,fullpath
+686200104121532.csv,tail_686_1,BHM,36,DTW,09R,68.39,../dataset/fdm/tail_686_1/686200104121532.csv
+686200104121245.csv,tail_686_1,DTW,03L,BHM,24,61.52,../dataset/fdm/tail_686_1/686200104121245.csv
+686200104121825.csv,tail_686_2,DTW,03L,LEX,22,40.71,../dataset/fdm/tail_686_2/686200104121825.csv
+686200104130429.csv,tail_686_2,LEX,22,DTW,09R,42.63,../dataset/fdm/tail_686_2/686200104130429.csv
+686200104130652.csv,tail_687_1,DTW,09R,OKC,31,95.92,../dataset/fdm/tail_687_1/686200104130652.csv

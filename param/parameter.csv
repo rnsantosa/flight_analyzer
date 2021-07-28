@@ -1,0 +1,187 @@
+id,description,units,rate,unit_conv,param_name,is_used
+ABRK,AIRBRAKE POSITION,DEG,1,deg-to-rad,airbrk_pos_rad,1
+ACID,AIRCRAFT NUMBER,,0.25,none,ac_id,0
+ACMT,ACMS TIMING USED T1HZ,,1,none,acms_used,0
+AIL_1,AILERON POSITION LH,DEG,1,deg-to-rad,ail_l_rad,1
+AIL_2,AILERON POSITION RH,DEG,1,deg-to-rad,ail_r_rad,1
+ALT,PRESSURE ALTITUDE LSP,FEET,4,ft-to-m,hbaro_m,1
+ALTR,ALTITUDE RATE,FT/MIN,4,fpm-to-mps,hdot_1_mps,1
+ALTS,SELECTED ALTITUDE LSP,FEET,1,ft-to-m,hselected_m,0
+AOA1,ANGLE OF ATTACK 1,DEG,4,deg-to-rad,aoa_1_rad,1
+AOA2,ANGLE OF ATTACK 2,DEG,4,deg-to-rad,aoa_2_rad,1
+AOAC,CORRECTED ANGLE OF ATTACK,DEG,4,deg-to-rad,aoac_rad,1
+AOAI,INDICATED ANGLE OF ATTACK,DEG,4,deg-to-rad,aoai_rad,1
+APFD,AP FD STATUS,,1,none,ap_fd_status,0
+APUF,APU FIRE WARNING,,2,none,apu_fire_warning,0
+ATEN,A/T ENGAGE STATUS,,1,none,auto_thr_status,1
+A_T,THRUST AUTOMATIC ON,,1,none,thr_auto_on,1
+BAL1,BARO CORRECT ALTITUDE LSP,FEET,4,ft-to-m,hbaroc_1_m,1
+BAL2,BARO CORRECT ALTITUDE LSP,FEET,4,ft-to-m,hbaroc_2_m,1
+BLAC,BODY LONGITUDINAL ACCELERATION,G,16,g-to-mps2,ax_body_mps2,1
+BLV,BLEED AIR ALL VALVES,,1,none,bleed_air_valve,0
+BPGR_1,BRAKE PRESSURE LH GREEN,PSI,1,psi-to-npm2,brkpress_lgre_npm2,1
+BPGR_2,BRAKE PRESSURE RH GREEN,PSI,1,psi-to-npm2,brkpress_rgre_npm2,1
+BPYR_1,BRAKE PRESSURE LH YELLOW,PSI,1,psi-to-npm2,brkpress_lyel_npm2,1
+BPYR_2,BRAKE PRESSURE RH YELLOW,PSI,1,psi-to-npm2,brkpress_ryel_npm2,1
+CALT,CABIN HIGH ALTITUDE,,1,none,hcabin_high,0
+CAS,COMPUTED AIRSPEED LSP,KNOTS,4,kts-to-mps,cas_mps,1
+CASM,MAX ALLOWABLE AIRSPEED,KNOTS,4,kts-to-mps,max_airspd_mps,0
+CASS,SELECTED AIRSPEED,KNOTS,1,kts-to-mps,airspd_selected_mps,0
+CCPC,CONTROL COLUMN POSITION CAPT,COUNTS,2,none,ctrlcolumn_pos_capt,1
+CCPF,CONTROL COLUMN POSITION F/O,COUNTS,2,none,ctrlcolumn_pos_fo,1
+CRSS,SELECTED COURSE,DEG,1,deg-to-rad,course_selected_rad,0
+CTAC,CROSS TRACK ACCELERATION,G,16,g-to-mps2,chi_acc_mps2,1
+CWPC,CONTROL WHEEL POSITION CAPT,COUNTS,2,none,ctrlwheel_pos_capt,1
+CWPF,CONTROL WHEEL POSITION F/O,COUNTS,2,none,ctrlwheel_pos_fo,1
+DA,DRIFT ANGLE,DEG,4,deg-to-rad,drift_rad,1
+DATE_DAY,Date (Day),Day,0.25,none,day,0
+DATE_MONTH,Date (Month),Month,0.25,none,month,0
+DATE_YEAR,Date (Year),Year,0.25,none,year,0
+DFGS,DFGS 1&2 MASTER,,1,none,dgfs_1and2_master,0
+DVER_1,DATABASE ID VERSION CHAR 1,,0.25,none,db_id_1,0
+DVER_2,DATABASE ID VERSION CHAR 2,,0.25,none,db_id_2,0
+DWPT,DISTANCE TO WAYPOINT LSP,,1,none,dist_to_wpt,0
+EAI,ENGINE ANTICE ALL POSITIONS,,1,none,eng_antiice_pos,0
+ECYC_1,ENGINE CYCLE 1 LSP,HOURS,0.25,none,engcycle_1_hr,1
+ECYC_2,ENGINE CYCLE 2 LSP,HOURS,0.25,none,engcycle_2_hr,1
+ECYC_3,ENGINE CYCLE 3 LSP,HOURS,0.25,none,engcycle_3_hr,1
+ECYC_4,ENGINE CYCLE 4 LSP,HOURS,0.25,none,engcycle_4_hr,1
+EGT_1,EXHAUST GAS TEMPERATURE 1,DEG,4,none,egt_1_deg,1
+EGT_2,EXHAUST GAS TEMPERATURE 2,DEG,4,none,egt_2_deg,1
+EGT_3,EXHAUST GAS TEMPERATURE 3,DEG,4,none,egt_3_deg,1
+EGT_4,EXHAUST GAS TEMPERATURE 4,DEG,4,none,egt_4_deg,1
+EHRS_1,ENGINE HOURS 1 LSP,HOURS,0.25,none,eng_1_hr,1
+EHRS_2,ENGINE HOURS 2 LSP,HOURS,0.25,none,eng_2_hr,1
+EHRS_3,ENGINE HOURS 3 LSP,HOURS,0.25,none,eng_3_hr,1
+EHRS_4,ENGINE HOURS 4 LSP,HOURS,0.25,none,eng_4_hr,1
+ELEV_1,ELEVATOR POSITION LEFT,DEG,1,deg-to-rad,elv_l_rad,1
+ELEV_2,ELEVATOR POSITION RIGHT,DEG,1,deg-to-rad,elv_r_rad,1
+ESN_1,ENGINE SERIAL NUMBER 1 LSP,UNITS,0.25,none,eng_1_sn,0
+ESN_2,ENGINE SERIAL NUMBER 2 LSP,UNITS,0.25,none,eng_2_sn,0
+ESN_3,ENGINE SERIAL NUMBER 3 LSP,UNITS,0.25,none,eng_3_sn,0
+ESN_4,ENGINE SERIAL NUMBER 4 LSP,UNITS,0.25,none,eng_4_sn,0
+EVNT,EVENT MARKER,,1,none,event_marker,0
+FADF,FADEC FAIL ALL ENGINES,,1,none,fadec_fail_eng,0
+FADS,FADEC STATUS ALL ENGINES,,1,none,fadec_status_eng,0
+FF_1,FUEL FLOW 1,LBS/HR,4,lbphr-to-kgps,ff_1_kgps,1
+FF_2,FUEL FLOW 2,LBS/HR,4,lbphr-to-kgps,ff_2_kgps,1
+FF_3,FUEL FLOW 3,LBS/HR,4,lbphr-to-kgps,ff_3_kgps,1
+FF_4,FUEL FLOW 4,LBS/HR,4,lbphr-to-kgps,ff_4_kgps,1
+FGC3,DFGS STATUS 3,,1,none,dfgs_3_status,0
+FIRE_1,ENGINE FIRE #1,,1,none,eng_1_fire,0
+FIRE_2,ENGINE FIRE #2,,1,none,eng_2_fire,0
+FIRE_3,ENGINE FIRE #3,,1,none,eng_3_fire,0
+FIRE_4,ENGINE FIRE #4,,1,none,eng_4_fire,0
+FLAP,T.E. FLAP POSITION,COUNTS,1,none,flap_te_pos,1
+FPAC,FLIGHT PATH ACCELERATION,G,16,g-to-mps2,gamma_acc_mps2,1
+FQTY_1,FUEL QUANTITY TANK 1 LSB,LBS,1,lb-to-kg,fqty_1_kg,1
+FQTY_2,FUEL QUANTITY TANK 2 LSB,LSB,1,lb-to-kg,fqty_2_kg,1
+FQTY_3,FUEL QUANTITY TANK 3 LSB,LSB,1,lb-to-kg,fqty_3_kg,1
+FQTY_4,FUEL QUANTITY TANK 4 LSB,LSB,1,lb-to-kg,fqty_4_kg,1
+FRMC,FRAME COUNTER,,0.25,none,frame_counter,0
+GLS,GLIDESLOPE DEVIATION,DDM,1,none,gs_dev_ddm,1
+GMT_HOUR,GREENWICH MEAN TIME (HOUR),Hour,2,none,gmt_hr,0
+GMT_MINUTE,GREENWICH MEAN TIME (MINUTE),Minute,2,none,gmt_min,0
+GMT_SEC,GREENWICH MEAN TIME (SECOND),Second,2,none,gmt_s,0
+GPWS,GPWS 1-5,,1,none,gpws_1to5,1
+GS,GROUND SPEED LSP,KNOTS,4,kts-to-mps,gs_mps,1
+HDGS,SELECTED HEADING,DEG,1,deg-to-rad,psi_selected_rad,0
+HF1,HF KEYING #1,,1,none,hf_1_keying,0
+HF2,HF KEYING #2,,1,none,hf_2_keying,0
+HYDG,LOW HYDRAULIC PRESSURE GREEN,,1,none,hyd_press_gre,0
+HYDY,LOW HYDRAULIC PRESSURE YELLOW,,1,none,hyd_press_yel,0
+ILSF,ILS FREQUENCY LSP,,1,none,ils_freq,1
+IVV,INERTIAL VERTICAL SPEED LSP,FT/MIN,16,fpm-to-mps,hdot_2_mps,1
+LATG,LATERAL ACCELERATION,G,4,g-to-mps2,ay_mps2,1
+LATP,LATITUDE POSITION LSP,DEG,1,deg-to-rad,lat_rad,1
+LGDN,GEARS L&R DOWN LOCKED,,1,none,gear_lr_dwnlck,1
+LGUP,GEARS L&R UP LOCKED,,1,none,gear_lr_uplck,1
+LMOD,LATERAL ENGAGE MODES,,1,none,lmod,0
+LOC,LOCALIZER DEVIATION,DDM,1,none,loc_dev_ddm,1
+LONG,LONGITUDINAL ACCELERATION,G,4,g-to-mps2,ax_mps2,1
+LONP,LONGITUDE POSITION LSP,DEG,1,deg-to-rad,lon_rad,1
+MACH,MACH LSP,MACH,4,mach-to-mps,mach,1
+MH,MAGNETIC HEADING LSP,DEG,4,deg-to-rad,psi_mag_rad,1
+MNS,SELECTED MACH,MMACH,1,mach-to-mps,mach_selected,0
+MRK,"MARKERS- INNER, MIDDLE, OUTER",,1,none,markers,0
+MSQT_1,SQUAT SWITCH LEFT MAIN GEAR,,2,none,lg_squat_ml,1
+MSQT_2,SQUAT SWITCH RIGHT MAIN GEAR,,2,none,lg_squat_mr,1
+MW,MASTER WARNING,,1,none,master_warn,0
+N1C,N1 COMMAND LSP,%RPM,4,none,n1_cmd_rpm,0
+N1CO,N1 COMPENSATION,,1,none,n1_compensation,0
+N1T,N1 TARGET LSP,%RPM,4,none,n1_target_rpm,0
+N1_1,FAN SPEED 1 LSP,%RPM,4,none,n11_rpm,1
+N1_2,FAN SPEED 2 LSP,%RPM,4,none,n12_rpm,1
+N1_3,FAN SPEED 3 LSP,%RPM,4,none,n13_rpm,1
+N1_4,FAN SPEED 4 LSP,%RPM,4,none,n14_rpm,1
+N2_1,CORE SPEED 1 LSP,%RPM,4,none,n21_rpm,1
+N2_2,CORE SPEED 2 LSP,%RPM,4,none,n22_rpm,1
+N2_3,CORE SPEED 3 LSP,%RPM,4,none,n23_rpm,1
+N2_4,CORE SPEED 4 LSP,%RPM,4,none,n24_rpm,1
+NSQT,SQUAT SWITCH NOSE MAIN GEAR,,4,none,lg_squat_n,1
+OIPL,LOW OIL PRESSURE ALL ENGINES,,1,none,oilpress_all,0
+OIP_1,OIL PRESSURE 1,PSI,1,psi-to-npm2,oilpress_1_npm2,1
+OIP_2,OIL PRESSURE 2,PSI,1,psi-to-npm2,oilpress_2_npm2,1
+OIP_3,OIL PRESSURE 3,PSI,1,psi-to-npm2,oilpress_3_npm2,1
+OIP_4,OIL PRESSURE 4,PSI,1,psi-to-npm2,oilpress_4_npm2,1
+OIT_1,OIL TEMPERATURE 1,DEG,1,deg-to-rad,oiltemp_1_deg,1
+OIT_2,OIL TEMPERATURE 2,DEG,1,deg-to-rad,oiltemp_2_deg,1
+OIT_3,OIL TEMPERATURE 3,DEG,1,deg-to-rad,oiltemp_3_deg,1
+OIT_4,OIL TEMPERATURE 4,DEG,1,deg-to-rad,oiltemp_4_deg,1
+PACK,PACK AIR CONDITIONING ALL,,1,none,pack_ac_all,0
+PH,FLIGHT PHASE FROM ACMS,,1,none,fphase_acms,0
+PI,IMPACT PRESSURE LSP,MB,2,mb-to-npm2,press_dynamic_npm2,1
+PLA_1,POWER LEVER ANGLE 1,DEG,4,deg-to-rad,pla_1_rad,1
+PLA_2,POWER LEVER ANGLE 2,DEG,4,deg-to-rad,pla_2_rad,1
+PLA_3,POWER LEVER ANGLE 3,DEG,4,deg-to-rad,pla_3_rad,1
+PLA_4,POWER LEVER ANGLE 4,DEG,4,deg-to-rad,pla_4_rad,1
+POVT,PYLON OVERHEAT ALL ENGINES,,1,none,povt,0
+PS,STATIC PRESSURE LSP,IN,2,inhg-to-npm2,press_static_npm2,1
+PSA,AVARAGE STATIC PRESSURE LSP,MB,2,mb-to-npm2,press_avgstatic_npm2,1
+PT,TOTAL PRESSURE LSP,MB,2,mb-to-npm2,press_total_npm2,1
+PTCH,PITCH ANGLE LSP,DEG,8,deg-to-rad,theta_rad,1
+PTRM,PITCH TRIM POSITION,DEG,1,deg-to-rad,theta_trim_rad,1
+PUSH,STICK PUSHER,,1,none,stick_pusher,0
+RALT,RADIO ALTITUDE LSP,FEET,8,ft-to-m,hralt_m,1
+ROLL,ROLL ANGLE LSP,DEG,8,deg-to-rad,phi_rad,1
+RUDD,RUDDER POSITION,DEG,2,deg-to-rad,rud_rad,1
+RUDP,RUDDER PEDAL POSITION,COUNTS,2,none,rud_pedal_pos,0
+SAT,STATIC AIR TEMPERATURE,DEG,1,deg-to-rad,temp_static_deg,1
+SHKR,STICK SHAKER,,2,none,stick_shaker,0
+SMKB,ANIMAL BAY SMOKE,,1,none,animal_baysmoke,0
+SMOK,SMOKE WARNING,,1,none,smoke_warning,0
+SNAP,MANUAL SNAPSHOT SWITCH,,1,none,man_snap_switch,0
+SPLG,SPOILER DEPLOY GREEN,,1,none,splr_dply_gre,1
+SPLY,SPOILER DEPLOY YELLOW,,1,none,splr_dply_yel,1
+SPL_1,ROLL SPOILER LEFT,DEG,1,deg-to-rad,splr_lroll_rad,1
+SPL_2,ROLL SPOILER RIGHT,DEG,1,deg-to-rad,splr_rroll_rad,1
+TAI,TAIL ANTICE ON,,1,none,tail_antiice,0
+TAS,TRUE AIRSPEED LSP,KNOTS,4,kts-to-mps,tas_mps,1
+TAT,TOTAL AIR TEMPERATURE,DEG,1,none,temp_total_degC,1
+TCAS,TCAS LSP,,1,none,tcas,0
+TH,TRUE HEADING LSP,DEG,4,deg-to-rad,psi_rad,1
+TMAG,TRUE/MAG HEADING SELECT,,1,none,psi_mag_selected,1
+TMODE,THRUST MODE,,1,none,thr_mode,0
+TOCW,TAKEOFF CONF WARNING,,2,none,to_conf_warn,0
+TRK,TRACK ANGLE TRUE LSP,DEG,4,deg-to-rad,chi_rad,1
+TRKM,TRACK ANGLE MAG LSP,DEG,4,deg-to-rad,chi_mag_rad,1
+1107,SYNC WORD FOR SUBFRAME 1,<units>,0.25,none,sycword_1_sbf,0
+2670,SYNC WORD FOR SUBFRAME 2,<units>,0.25,none,sycword_2_sbf,0
+5107,SYNC WORD FOR SUBFRAME 3,<units>,0.25,none,sycword_3_sbf,0
+6670,SYNC WORD FOR SUBFRAME 4,<units>,0.25,none,sycword_4_sbf,0
+VHF1,VHF KEYING #1,,1,none,vhy_1_keying,0
+VHF2,VHF KEYING #2,,1,none,vhy_2_keying,0
+VHF3,VHF KEYING #3,,1,none,vhy_3_keying,0
+VIB_1,ENGINE VIBRATION 1,IN/SEC,4,none,engvbr_1_inps,0
+VIB_2,ENGINE VIBRATION 2,IN/SEC,4,none,engvbr_2_inps,0
+VIB_3,ENGINE VIBRATION 3,IN/SEC,4,none,engvbr_3_inps,0
+VIB_4,ENGINE VIBRATION 4,IN/SEC,4,none,engvbr_4_inps,0
+VMODE,VERTICAL ENGAGE MODES,,1,none,vmode,0
+VRTG,VERTICAL ACCELERATION,G,8,g-to-mps2,az_mps2,1
+VSPS,SELECTED VERTICAL SPEED,FT/MIN,1,fpm-to-mps,hdot_selected_mps,0
+WAI_1,INNER WING DEICE,,1,none,inner_wing_deice,0
+WAI_2,OUTER WING ANTICE,,1,none,outer_wing_antiice,0
+WD,WIND DIRECTION TRUE,DEG,4,deg-to-rad,wdir_rad,1
+WOW,WEIGHT ON WHEELS,,1,none,wow,1
+WS,WIND SPEED,KNOTS,4,kts-to-mps,ws_mps,1
+WSHR,WINDSHEAR WARNING,,1,none,wshear_warn,0
