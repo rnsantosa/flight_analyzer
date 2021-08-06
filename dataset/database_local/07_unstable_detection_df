@@ -1,0 +1,6 @@
+flap,gamma,glide,altitude,localizer,thrust,airspeed,pitch,track,lgear
+1,0,1,0,1,0,1,0,1,0
+1,1,0,1,1,0,1,0,0,0
+1,0,1,1,1,0,1,0,1,0
+1,0,1,1,1,0,1,0,1,0
+1,1,0,0,1,0,1,0,1,0
